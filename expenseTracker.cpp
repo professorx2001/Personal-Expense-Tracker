@@ -80,6 +80,7 @@ void writeInFile(int amount, int index){
     for(int i=0; i<v.size(); i++){
         write << v[i]<< endl;
     }
+    write.close();
 }
 
 int main(){
